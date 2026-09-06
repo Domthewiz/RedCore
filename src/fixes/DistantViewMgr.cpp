@@ -5,8 +5,7 @@ using namespace tk::ppc;
 // Disable flicker
 tPatch32u(0x022A7974, cmpw(R::r9, R::r9)); // DistantViewMgr::updateCameraAndProjection
 
-#define TELKIN_REGISTERS
-#include <telkin/Telkin.h>
+#include <telkin/DefineRegisters.h>
 
 u64 cast_double = 0x4330000080000000;
 
