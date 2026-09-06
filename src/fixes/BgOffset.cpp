@@ -2,6 +2,8 @@
 #define TELKIN_REGISTERS
 #include <telkin/Telkin.h>
 
+u64 cast_double = 0x4330000080000000;
+
 // Credits: Tsuru
 void addBGOffset() tAssembly(
     //  # Allocate 0x18 bytes from stack
