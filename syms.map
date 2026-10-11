@@ -613,11 +613,32 @@
     _ZTV23ActorBgHitCheckCallback = 0x10041A30;
 
 // ActorBlockBase
-    _ZN14ActorBlockBase7executeEv = 0x0269E6C4;
-    _ZN14ActorBlockBase4drawEv = 0x0269E77C;
-    _ZN14ActorBlockBase4initEbb = 0x0269F6C8;
-    _ZN14ActorBlockBase10getContentEj = 0x0269FAB0;
     _ZN14ActorBlockBase9initMoverEv = 0x0269FB30;
+    _ZN14ActorBlockBase15StateID_HitWaitE = 0x1021E904;
+    _ZN14ActorBlockBase10getContentEj = 0x0269FAB0;
+    _ZN14ActorBlockBase9sTypeInfoE = 0x101E9CF8;
+    _ZN14ActorBlockBase12StateID_WaitE = 0x1021E8E0;
+    _ZN14ActorBlockBase4drawEv = 0x0269e77c;
+    _ZN14ActorBlockBase11spawnItemUpEv = 0x0269ebc0;
+    _ZN14ActorBlockBase13spawnItemDownEv = 0x0269ebc4;
+    _ZN14ActorBlockBase18onDownMove_DiffEndEv = 0x0269ec04;
+    _ZN14ActorBlockBase11onMove_DiffEv = 0x0269f674;
+    _ZN14ActorBlockBase20onDownMove_DiffStartEv = 0x0269f400;
+    _ZN14ActorBlockBase5vf2C4Ev = 0x0269f410;
+    _ZN14ActorBlockBase7destroyEv = 0x0269f25c;
+    _ZN14ActorBlockBase8destroy2Ev = 0x0269f33c;
+    _ZN14ActorBlockBase4initEbb = 0x0269f6c8;
+    _ZN14ActorBlockBase14updateMovementEv = 0x0269f078;
+    _ZN14ActorBlockBase12restoreStateEv = 0x0269ec1c;
+    _ZN14ActorBlockBase12preSpawnItemEv = 0x0269efe4;
+    _ZN14ActorBlockBase7executeEv = 0x0269e6c4;
+    _ZN14ActorBlockBaseC2ERK16ActorCreateParam = 0x0269E614;
+    _ZN14ActorBlockBase20initializeState_WaitEv = 0x026a061c;
+    _ZN14ActorBlockBase17executeState_WaitEv = 0x026a0068;
+    _ZN14ActorBlockBase18finalizeState_WaitEv = 0x026a0620;
+    _ZN14ActorBlockBase23initializeState_HitWaitEv = 0x026a0624;
+    _ZN14ActorBlockBase20executeState_HitWaitEv = 0x026a0074;
+    _ZN14ActorBlockBase21finalizeState_HitWaitEv = 0x026a0628;
 
 // ActorBlockHatena
     _ZN16ActorBlockHatenaC1ERK16ActorCreateParam = 0x026A4FAC;
@@ -1222,6 +1243,36 @@
 
 // BlockCoinBase
     _ZN13BlockCoinBase12spawnJumpdaiEv = 0x02706430;
+    _ZTV13BlockCoinBase = 0x10101a80;
+    _ZN13BlockCoinBase15updateBumpScaleEh = 0x02704868;
+    _ZN13BlockCoinBase15spawnCoinShowerEv = 0x027048e4;
+    _ZN13BlockCoinBase22initializeState_UpMoveEv = 0x02707cb4;
+    _ZN13BlockCoinBase19executeState_UpMoveEv = 0x02707cf0;
+    _ZN13BlockCoinBase20finalizeState_UpMoveEv = 0x02708f2c;
+    _ZN13BlockCoinBase25initializeState_UpMoveEndEv = 0x02707d94;
+    _ZN13BlockCoinBase22executeState_UpMoveEndEv = 0x02707da0;
+    _ZN13BlockCoinBase23finalizeState_UpMoveEndEv = 0x02708f30;
+    _ZN13BlockCoinBase24initializeState_DownMoveEv = 0x02707db8;
+    _ZN13BlockCoinBase21executeState_DownMoveEv = 0x02707dfc;
+    _ZN13BlockCoinBase22finalizeState_DownMoveEv = 0x02708f34;
+    _ZN13BlockCoinBase27initializeState_DownMoveEndEv = 0x02707e9c;
+    _ZN13BlockCoinBase24executeState_DownMoveEndEv = 0x02707ea8;
+    _ZN13BlockCoinBase25finalizeState_DownMoveEndEv = 0x02708f38;
+    _ZN13BlockCoinBase27initializeState_UpMove_DiffEv = 0x02707ed0;
+    _ZN13BlockCoinBase24executeState_UpMove_DiffEv = 0x02707f58;
+    _ZN13BlockCoinBase25finalizeState_UpMove_DiffEv = 0x02708f3c;
+    _ZN13BlockCoinBase29initializeState_DownMove_DiffEv = 0x0270812c;
+    _ZN13BlockCoinBase26executeState_DownMove_DiffEv = 0x02708198;
+    _ZN13BlockCoinBase27finalizeState_DownMove_DiffEv = 0x02708f40;
+    _ZN13BlockCoinBase32initializeState_DownMove_DiffEndEv = 0x0270828c;
+    _ZN13BlockCoinBase29executeState_DownMove_DiffEndEv = 0x02708298;
+    _ZN13BlockCoinBase30finalizeState_DownMove_DiffEndEv = 0x02708f44;
+    _ZN13BlockCoinBase12callbackFootEP11BgCollisionP21ActorBgCollisionCheck = 0x02704ECC;
+    _ZN13BlockCoinBase12callbackHeadEP11BgCollisionP21ActorBgCollisionCheck = 0x02705528;
+    _ZN13BlockCoinBase12callBackWallEP11BgCollisionP21ActorBgCollisionCheckh = 0x02705EFC;
+    _ZN13BlockCoinBase17spawnMultiPowerupERKN4sead7Vector3IfEEjjb = 0x02706FF4;
+    _ZN13BlockCoinBase12spawnPowerupERKN4sead7Vector3IfEEjjb = 0x02706D1C;
+    _ZN13BlockCoinBase9sTypeInfoE = 0x101e9ca8;
 
 // BlockMgr
     _ZN8BlockMgr14deleteInstanceEv = __deleted_virtual_called;
@@ -1702,6 +1753,7 @@
     _ZN19ChangeBlockCoinBase10onDrcTouchEv = 0x02726654;
     _ZN19ChangeBlockCoinBase26registerColliderActiveInfoEv = 0x02726760;
     _ZN19ChangeBlockCoinBase5vf2C4Ev = 0x02727998;
+    _ZN19ChangeBlockCoinBase9sTypeInfoE = 0x101e9cf0;
 
 // ChangeMgr
     _ZN9ChangeMgrC1Ev = 0x02975AE0;
@@ -4247,6 +4299,7 @@
 
 // PlayerMgr
     _ZN9PlayerMgr11getYoshiNumEv = 0x02918144;
+    _ZN9PlayerMgr12getNumInGameEv = 0x02918F34;
     _ZN9PlayerMgr9sInstanceE = 0x101E6994;
 
 // PlayerModel
